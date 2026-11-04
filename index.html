@@ -76,20 +76,21 @@
     <main>
 
         <!-- Hero Section -->
-        <section id="hero">
-            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 md:py-25">
-                <div class="md:flex md:gap-8 lg:gap-12">
+        <section id="hero" class="bg-[#eef2ff] dark:bg-[#0b1020]">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 py-20 md:py-25">
+                <div class="lg:flex lg:gap-12">
                     <!-- Content -->
-                    <div class="w-1/2 ">
+                    <div class="w-full lg:w-1/2 ">
                         <div
                             class="inline-flex items-center gap-2 uppercase border border-[#e2e8f0] dark:border-[#293449] py-1.5 px-3 rounded-full text-[14px] text-[#4338ca] font-semibold bg-[#e0e3fc] mb-5">
                             <span class="w-2 h-2 rounded-full bg-[#4338ca] animate-pulse"></span>
                             Annual college tech fest . 2026
                         </div>
-                        <h1 class="capitalize md:text-6xl lg:text-7xl font-bold mb-8">Innovate Today.
+                        <h1 class="capitalize text-4xl md:text-6xl lg:text-7xl font-bold mb-8">Innovate Today.
                             <span class="text-[#4338ca]">Engineer</span> Tomorrow.
                         </h1>
-                        <p class="text-[#4b5563] dark:text-[#cbd5e1] lg:text-lg mb-8">Step into a world of innovation,
+                        <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[16px] lg:text-lg mb-8">Step into a world of
+                            innovation,
                             technology, and
                             creativity. Join brilliant minds to explore
                             new ideas,
@@ -98,12 +99,12 @@
 
                         <div class="mb-10">
                             <a href="events.html"> <button
-                                    class="md:p-3 lg:px-5 lg:py-3 rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-semibold mr-3">Explore
+                                    class="p-2 md:p-3 lg:px-5 lg:py-3 rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-semibold mr-3 cursor-pointer">Explore
                                     Events</button>
                             </a>
                             <a href="about.html">
                                 <button
-                                    class="md:p-3 lg:px-5 lg:py-3 rounded-2xl border border-[#e2e8f0f1] dark:border-[#293449] hover:border-[#4338ca] font-semibold hover:text-[#4338ca] dark:hover:text-white"
+                                    class="p-2 md:p-3 lg:px-5 lg:py-3 rounded-2xl border border-[#e2e8f0f1] dark:border-[#293449] hover:border-[#4338ca] font-semibold hover:text-[#4338ca] dark:hover:text-white cursor-pointer"
                                     type="button">Discover
                                     Our Fest
                                 </button>
@@ -132,28 +133,457 @@
 
                     </div>
                     <!-- Image -->
-                    <div class="w-1/2 relative mt-16">
-                        <div class="w-full overflow-hidden border-8 border-[#bcbdfa] dark:border-white rounded-[28px]">
+                    <div class="w-full lg:w-1/2 relative mt-16">
+                        <div
+                            class="w-full overflow-hidden border-8 border-[#e2e8f0] dark:border-[#293449] rounded-[28px]">
                             <img class="object-cover h-[330px] w-full sm:h-[440px]" src="./images/hero.jpg"
                                 alt="computer_image" />
                         </div>
-                        <div class="bg-[#343440] rounded-2xl py-4 px-20 absolute bottom-40 right-12 ">
-                            <p class="uppercase text-blue-300 font-semibold md:text-[2] lg:text-[13px] tracking-widest">
+                        <div class="bg-[#343440] rounded-2xl py-4 px-10 md:px-20 absolute bottom-40 right-12 ">
+                            <p class="uppercase text-blue-300 font-semibold tracking-widest text-[12px]">
                                 Make something
                                 meaningful
                             </p>
-                            <h3 class="capitalize font-bold text-white md:text-[16] lg:text-[22px]">Think. create.
+                            <h3 class="capitalize font-bold text-white text-[20px]">Think. create.
                                 collaborate.</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- A little about the tech fest -->
+        <section class="bg-white dark:bg-[#111827] pt-16 pb-30">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
+                <h2 class="text-[#111827] dark:text-[#f8fafc] text-center text-4xl font-semibold pb-8">Where Technology
+                    Meets
+                    Creativity
+                </h2>
+                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[16px] text-center lg:px-10 mb-15">Our annual tech
+                    fest brings
+                    together
+                    curious
+                    minds,
+                    aspiring developers, innovators, and technology
+                    enthusiasts. From coding competitions to creative technology showcases, it's a place to learn,
+                    collaborate, and turn ideas into reality.
+                </p>
 
+                <div class="text-[#4338ca] font-semibold text-end mb-4">
+                    <a href="about.html">Learn More ↗</a>
+                </div>
+                <div class="flex flex-col md:flex-row gap-5">
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/lightbulb.png" alt="lightbulb"
+                                class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Innovation</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">Explore new ideas and emerging technologies.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/people.png" alt="people"
+                                class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Collaboration</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">Connect with students, developers, and
+                            innovators.</p>
+                    </div>
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/trophy.png" alt="trophy"
+                                class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Competition</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">Challenge your skills and showcase your
+                            talent.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- Features Events -->
+        <section class="bg-[#f1f5f9] dark:bg-[#0b1020] py-8">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+                <!-- heading -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-8">Explore Our Events</h2>
+                    <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[16px] text-center mb-15">Discover challenges,
+                        compete
+                        with talented minds, and bring your ideas to life.
+                    </p>
+                </div>
+                <!-- Cards -->
+                <div class="flex flex-col md:flex-row gap-6">
+                    <article
+                        class="overflow-hidden rounded-2xl bg-white  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/h1.png" alt="robot" class="w-full h-[200px] object-cover" />
+                        <div class="px-7 py-6">
+                            <span
+                                class="text-[#6D28D9] bg-[#F5F3FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Robotics</span>
+
+                            <h3 class="font-bold text-xl mt-4">Robo Wars</h3>
+                            <p class="my-3 text-[#4b5563] dark:text-[#cbd5e1]">Design, build, and compete with your
+                                robot.</p>
+                            <button class="text-[#4338ca] font-semibold text-[8px]mb-2 cursor-pointer">Explore
+                                Event</button>
+
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-2xl bg-white dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/h2.jpg" alt="developers" class="w-full h-[200px] object-cover" />
+                        <div class="px-7 py-6">
+                            <span
+                                class="text-[#1D63E2] bg-[#EFF6FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Coding</span>
+
+                            <h3 class="font-bold text-xl mt-4">Code Clash</h3>
+                            <p class="my-3 text-[#4b5563] dark:text-[#cbd5e1]">Test your programming and problem-solving
+                                skills.</p>
+                            <button class="text-[#4338ca] font-semibold text-[8px]mb-2 cursor-pointer">Explore
+                                Event</button>
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-2xl bg-white dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/h3.jpg" alt="coding_screen" class="w-full h-[200px] object-cover" />
+                        <div class="px-7 py-6">
+                            <span
+                                class="text-[#047857] bg-[#ECFDF5] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Ideas</span>
+                            <h3 class="font-bold text-xl mt-4">Hackathon</h3>
+                            <p class="my-3 text-[#4b5563] dark:text-[#cbd5e1]">Build innovative solutions through code.
+                            </p>
+                            <button class="text-[#4338ca] font-semibold text-[8px]mb-2 cursor-pointer">Explore
+                                Event</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="text-[#4338ca] font-semibold text-center mt-7">
+                    <a href="events.html">View All Events →</a>
+                </div>
+            </div>
+        </section>
+        <!-- Fest Highlights and Statistics -->
+        <section class="bg-[#eef2ff] dark:bg-[#151c30] py-20 md:py-25">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
+
+                <div
+                    class="bg-[#5e51ee] dark:bg-[#171725] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl pt-4 pb-16">
+                    <!-- Content -->
+                    <div class="rounded-4xl  w-fit mx-auto text-center bg-blue-100 ">
+                        <span class="px-3.5 py-1 flex justify-center items-center gap-2">
+                            <img src="./images/star.png" alt="star" />
+                            <p class="text-[#111827] font-medium">Fest Highlights</p>
+                        </span>
+                    </div>
+                    <p class="text-white dark:text-[#cbd5e1] text-center text-[20px] font-semibold pt-4 pb-10">A
+                        Celebration
+                        of
+                        Talent, ideas &
+                        Innovation
+                    </p>
+                    <!-- Box -->
+                    <div class=" flex flex-col md:flex-row gap-5  items-center justify-center">
+                        <div class="flex rounded-2xl bg-white dark:bg-[#5e51ee] p-4  gap-5 shadow-lg">
+                            <div>
+                                <img src="./images/calendar.png" alt="icons" class="bg-blue-100 p-2 rounded-full" />
+                            </div>
+                            <div>
+                                <span class=" font-bold text-[28px] ">12+</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] ">Exciting Events</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl bg-white dark:bg-[#5e51ee] p-4 gap-5 shadow-lg">
+                            <div>
+                                <img src="./images/people.png" alt="icons" class="bg-blue-100 p-2 rounded-full" />
+                            </div>
+                            <div>
+                                <span class=" font-bold text-[28px] ">1,000+</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1]">Student Participants</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl bg-white dark:bg-[#5e51ee] p-4 gap-5 shadow-lg">
+                            <div>
+                                <img src="./images/university.png" alt="icons" class="bg-blue-100 p-2 rounded-full" />
+                            </div>
+                            <div>
+                                <span class=" font-bold text-[28px] ">25+</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1]">Colleges Involved</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl bg-white dark:bg-[#5e51ee] p-4 gap-5 shadow-lg">
+                            <div>
+                                <img src="./images/microphone.png" alt="icons" class="bg-blue-100 p-2 rounded-full" />
+                            </div>
+                            <div>
+                                <span class=" font-bold text-[28px] ">10+</span>
+                                <p class=" text-[#4b5563] dark:text-[#cbd5e1]">Expert Speakers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Event Schedule preview -->
+        <section class="bg-white dark:bg-[#111827] pt-10 pb-10">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+                <!-- Content -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-8">The Fest at a glance
+                    </h2>
+                    <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[16px] text-center  mb-18">
+                        Plan your experience and get ready for an exciting day of technology.
+                    </p>
+                </div>
+
+                <!-- Schedule card -->
+                <div class="max-w-2xl m-auto relative">
+
+                    <!-- Vertical line -->
+                    <div class="w-0.5 absolute left-[-20px] top-0 bottom-0 bg-indigo-600 "></div>
+
+                    <div class=" space-y-6">
+                        <!-- Card 1 -->
+                        <div class="flex gap-6 relative">
+                            <span class="w-3 h-3 rounded-full bg-[#4338ca] animate-pulse absolute top-7 -left-4">
+                            </span>
+                            <div
+                                class="rounded-2xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] shadow-sm hover:shadow-md transition  duration-300 ease-in-out hover:-translate-y-2 py-6 px-5">
+                                <p class="text-[#4338ca] font-semibold text-[14px] ">09:00 AM - 10:00
+                                    AM
+                                </p>
+                                <h3 class="font-bold text-[19px] my-2">Opening Ceremony</h3>
+                                <div
+                                    class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1] text-[14px] pb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <p>Main Auditorium</p>
+                                </div>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Kick off TechNova with
+                                    inspiring speeches and a warm welcome.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="flex gap-5 relative">
+                            <span class="w-3 h-3 rounded-full bg-[#4338ca] animate-pulse absolute top-7 -left-4">
+                            </span>
+                            <div
+                                class=" rounded-2xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] shadow-sm hover:shadow-md transition  duration-300 ease-in-out hover:-translate-y-2 py-6 px-5">
+                                <p class="text-[#4338ca] font-semibold text-[14px]">10:30 AM - 12:30 PM
+                                </p>
+                                <h3 class="font-bold text-[19px] my-2">Code Clash</h3>
+                                <div
+                                    class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1] text-[14px] pb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <p> Computer Lab</p>
+                                </div>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Challenge your programming
+                                    skills and compete with talented coders.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="flex gap-5 relative">
+                            <span class="w-3 h-3 rounded-full bg-[#4338ca] animate-pulse absolute top-7 -left-4">
+                            </span>
+                            <div
+                                class=" rounded-2xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] shadow-sm hover:shadow-md transition  duration-300 ease-in-out hover:-translate-y-2 py-6 px-5">
+                                <p class="text-[#4338ca] font-semibold text-[14px]">1:00 PM - 02:30 PM
+                                </p>
+                                <h3 class="font-bold text-[19px] my-2">Robo Wars</h3>
+                                <div
+                                    class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1] text-[14px] pb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <p> College Ground</p>
+                                </div>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Watch powerful robots
+                                    battle
+                                    it out in an exciting competition.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="flex gap-5 relative">
+                            <span class="w-3 h-3 rounded-full bg-[#4338ca] animate-pulse absolute top-7 -left-4">
+                            </span>
+                            <div
+                                class=" rounded-2xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] shadow-sm hover:shadow-md transition  duration-300 ease-in-out hover:-translate-y-2 py-6 px-5">
+                                <p class="text-[#4338ca] font-semibold text-[14px]">03:00 PM - 04:00 PM
+                                </p>
+                                <h3 class="font-bold text-[19px] my-2">Prize Distribution</h3>
+                                <div
+                                    class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1] text-[14px] pb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <p>Main Auditorium</p>
+                                </div>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Celebrate the winners and
+                                    recognize outstanding performances.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="text-[#4338ca] font-semibold text-center mt-8">
+                    <a href="schedule.html">View Full Schedule →</a>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action (CTA) -->
+        <section>
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 py-8">
+                <div
+                    class="bg-[#4f46e5] dark:bg-[#312e81] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-12 flex flex-col md:flex-row gap-6 justify-between">
+                    <div>
+                        <h2 class="text-4xl font-semibold  text-white pb-4">Ready to Build Something Extraordinary ?
+                        </h2>
+                        <p class="text-white dark:text-[#cbd5e1]">Bring your ideas, challenge your limits, and become
+                            part of an unforgettable celebration of
+                            technology.</p>
+                    </div>
+                    <div>
+                        <a href="contact.html">
+                            <button
+                                class="text-[#5e51ee] bg-white p-4 cursor-pointer font-semibold rounded-2xl hover:-translate-y-1 transition duration-300 ease-in-out border-2 border-gray-300 dark:hover:border-[#5e51ee] ">Join
+                                the
+                                Experience</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Past Fest Moments Preview -->
+        <section class="bg-[#f1f5f9] dark:bg-[#0b1020] py-16">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
+                <!-- heading -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-6">Moments That Inspire</h2>
+                    <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[16px] text-center pb-12">A glimpse of the
+                        creativity,
+                        collaboration, and excitement from our tech community.</p>
+                </div>
+                <!-- Photographs -->
+                <div class="max-w-2xl m-auto">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="row-span-2 rounded-xl overflow-hidden hover:scale-105">
+                            <img src="./images/img1.jpg" alt="Coding Competition"
+                                class="w-full h-[280px] object-cover" />
+                        </div>
+                        <div class=" rounded-xl overflow-hidden hover:scale-105">
+                            <img src="./images/img2.jpg" alt="robot" class="w-full h-[130px] object-cover" />
+                        </div>
+                        <div class=" rounded-xl overflow-hidden hover:scale-105">
+                            <img src="./images/img3.jpg" alt="speaker" class="w-full h-[130px] object-cover" />
+                        </div>
+                        <div class="col-span-2 rounded-xl overflow-hidden hover:scale-105">
+                            <img src="./images/img4.jpg" alt="celebration" class="w-full h-[240px] object-cover" />
+                        </div>
+                    </div>
+                </div>
+                <div class="text-[#4338ca] font-semibold text-center mt-8">
+                    <a href="gallery.html">Explore The Gallery →</a>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- ============= Footer Section ============= -->
-    <footer></footer>
+    <footer class="bg-[#e2e8f0] dark:bg-[#080d19] py-10">
+        <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full ">
+                <div>
+                    <a href="index.html">
+                        <span class="text-[25px] font-bold">Tech</span><span
+                            class="text-[#4f46e5] dark:text-[#6366f1] text-xl font-bold ">Nova
+                        </span>
+                    </a>
+                    <p class="mt-3 text-sm leading-6 text-[#4b5563] dark:text-[#cbd5e1]">A student-led
+                        celebration of ideas, technology and the
+                        people building tomorrow. Learn together.
+                        Build boldly. Share what you create.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-bold ">Explore</h3>
+                    <ul class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">
+                        <li class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2"><a href="about.html">About
+                                TechNova</a></li>
+                        <li class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2"><a href="events.html">Explore
+                                events</a></li>
+                        <li class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2"><a href="schedule.html">Fest
+                                schedule</a></li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h3 class="font-bold">Get in touch</h3>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">abc@gmail.com
+                    </p>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2">Campus Innovation Centre</p>
+                    <a href="contact.html" class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2">Contact the team
+                        ↗</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-400 dark:border-gray-700 mt-10"></div>
+            <div class="flex flex-col md:flex-row justify-between items-center mt-3">
+                <div>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1]">© 2026 Rachna Sharma. All Rights Reserved.</p>
+                </div>
+                <div class="pt-2">
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </span>
+
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </span>
+
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://x.com/">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </span>
+
+                    <span class="p mr-2 text-center text-[15px]">
+                        <a href="https://www.youtube.com/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- For Overlay (adding layer while opening the side bar) -->
     <div class="overlay"></div>
     <!-- For Scroll button -->
