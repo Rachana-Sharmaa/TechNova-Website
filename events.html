@@ -82,8 +82,351 @@
     </header>
     <!-- ============= Main Section ============= -->
     <main>
-        <section id="hero" class="w-full h-screen"></section>
+        <!-- Events Hero page -->
+        <section id="hero" class="relative overflow-hidden">
+            <!-- image box -->
+            <div class="absolute inset-0 "><img src="./images/event1.png" alt="computer_img"
+                    class="object-cover w-full h-full" /></div>
+            <div class="absolute inset-0 bg-slate-950/90"></div>
+            <div class="w-full max-w-7xl m-auto  px-4 md:px-6 lg:px-8 relative text-[#f8fafc] py-24 ">
+                <h1 class="capitalize max-w-3xl text-4xl sm:text-6xl  font-bold "> Explore Our
+                    Events
+                </h1>
+                <p class="mt-5 max-w-2xl text-[15px] md:text-lg leading-6 md:leading-8 dark:text-[#cbd5e1]">
+                    Discover exciting competitions, creative challenges, and innovative experiences at TechNova. Explore
+                    our events, showcase your skills, and compete with passionate minds.
+                </p>
+            </div>
 
+        </section>
+        <!-- Event Categories -->
+        <section class="bg-[#eef2ff] dark:bg-[#0b1020] py-26">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+                <!-- heading -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-6">Explore Event Categories </h2>
+                    <p class=" text-[#4b5563] dark:text-[#cbd5e1] text-center pb-12">Find your interest and choose your
+                        challenge.</p>
+                </div>
+                <!-- Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+                    <!-- card 1 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/slash.png" alt="code"
+                                class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Technical</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Coding, hackathons and quizzes.
+                        </p>
+                    </div>
+                    <!-- card 2 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/chip.png" alt="chip" class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Robotics</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Robotics battles and innovation challenges.
+                        </p>
+                    </div>
+                    <!-- card 3 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-4 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/lightbulb.png" alt="lightbulb"
+                                class="bg-blue-100 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Creative</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Design, ideas and project showcases.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature cards -->
+        <section class="bg-white dark:bg-[#0b1020] pt-24 pb-30">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+                <!-- heading -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-6">Discover Our Featured Events </h2>
+                    <p class=" text-[#4b5563] dark:text-[#cbd5e1] text-center pb-16">
+                        Participate, compete, and showcases your technical skills.
+                    </p>
+                </div>
+                <!-- Cards -->
+                <div class="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
+                    <!-- card 1 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/code.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-[#6D28D9] bg-[#F5F3FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Technical</span>
+
+                            <h3 class="font-bold text-xl mt-3">Code Clash</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Challenge your programming
+                                skills and
+                                solve exciting coding problems.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">8 June 10:00 AM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">Computer Lab</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                    <!-- card 2 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/roboWar.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-green-500 bg-green-100 rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Robotics</span>
+
+                            <h3 class="font-bold text-xl mt-3">Robo Wars</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Build powerfull robots and
+                                compete in an exciting battle arena.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">14 June 8:00 AM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">College Ground</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                    <!-- card 3 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/hackathon.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-[#6D28D9] bg-[#F5F3FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Technical</span>
+
+                            <h3 class="font-bold text-xl mt-3">Hackathon</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Work together to create
+                                innovative solutions to real-world problems.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">14 sep 9:00 AM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">Innovation Hall</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                    <!-- card 4 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/quiz.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-[#6D28D9] bg-[#F5F3FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Technical</span>
+
+                            <h3 class="font-bold text-xl mt-3">Tech Quiz</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Test your knowledge of
+                                science, technology, and computing.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">16 March 12:00 AM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">Seminar Hall</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                    <!-- card 5 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/project.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-pink-500 bg-pink-100 rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Creative</span>
+
+                            <h3 class="font-bold text-xl mt-3">Project Expo</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Showcase your innovative
+                                projects, prototypes, and technical ideas.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">12 June 2:00 PM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">Seminar Hall</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                    <!-- card 6 -->
+                    <article
+                        class="overflow-hidden rounded-xl bg-[#f8fafc]  dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449]  shadow-md hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <img src="./images/UI.jpg" alt="computer" class="w-full h-[230px] object-cover" />
+                        <div class="px-6 py-4">
+                            <span
+                                class="text-[#6D28D9] bg-[#F5F3FF] rounded-2xl px-3 py-1 uppercase font-semibold text-[12px]">Creative</span>
+
+                            <h3 class="font-bold text-xl mt-3">UI/UX Design</h3>
+                            <p class="my-2 text-[#4b5563] dark:text-[#cbd5e1] text-[15px]">Create attractive and
+                                user-friendly digital experiences.
+                            </p>
+                            <div class="flex gap-2 pt-1 pb-2 items-center">
+                                <span><img src="./images/calendar.png" alt="calendar" class="w-5" /></span>
+                                <p class="font-semibold text-[15px]">16 June 3:00 PM</p>
+                            </div>
+                            <div class="flex items-center gap-2 text-[#4b5563] dark:text-[#cbd5e1]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-cyan-400">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <p class="text-[15px]">Computer Lab</p>
+                            </div>
+                            <button
+                                class="bg-[#4338ca] text-white w-full p-2 rounded-xl font-semibold cursor-pointer mt-5">View
+                                Details →</button>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Why participate -->
+        <section class="bg-[#eef2ff] dark:bg-[#0b1020] py-26">
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+                <!-- Heading -->
+                <div>
+                    <h2 class="text-center text-4xl font-semibold pb-6">Why Join TechNova ?</h2>
+                    <p class=" text-[#4b5563] dark:text-[#cbd5e1] text-center pb-16">Learn new skills, connect with
+                        talented minds, and unlock opportunities.</p>
+                </div>
+                <!-- Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Card 1 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-gray-200 dark:border-[#293449] rounded-xl p-6 shadow-lg hover:-translate-y-1 transition  duration-300 ease-in-out">
+                        <span><img src="./images/trophy.png" alt="trophy"
+                                class="bg-indigo-900 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Win Exciting Prizes</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Get recognized for your talent and earn exciting rewards through your performance.
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-gray-200 dark:border-[#293449] rounded-2xl p-6 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/brainstorm.png" alt="brainstorm"
+                                class="bg-indigo-900 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Improve Your Skills</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Learn new technologies and strengthen your abilities through practical challenges.
+                        </p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-gray-200 dark:border-[#293449] rounded-2xl p-6 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/people.png" alt="people"
+                                class="bg-indigo-900 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Build Connections</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Meet like-minded students, exchange ideas, and build valuable connections.
+                        </p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div
+                        class="bg-[#f8fafc] dark:bg-[#151c30] border border-gray-200 dark:border-[#293449] rounded-2xl p-6 shadow-lg hover:-translate-y-4 transition  duration-300 ease-in-out">
+                        <span><img src="./images/lightbulb.png" alt="lightbulb"
+                                class="bg-indigo-900 p-3 rounded-2xl mb-6" /></span>
+                        <h3 class="font-bold text-xl text-[#111827] dark:text-[#f8fafc]">Showcase Innovation</h3>
+                        <p class="mt-3 text-[#4b5563] dark:text-[#cbd5e1]">
+                            Present your creative ideas, demonstrate your projects, and turn imagination into reality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action -->
+        <section>
+            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 py-28 ">
+                <div
+                    class="bg-[#4f46e5] dark:bg-[#312e81] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-12 flex flex-col md:flex-row gap-6 justify-between">
+                    <div>
+                        <h2 class="text-4xl font-semibold  text-white pb-4">Ready to Take the Challenge ?
+                        </h2>
+                        <p class="text-white dark:text-[#cbd5e1]">
+                            Join TechNova, showcase your talent, and become part of an exciting technological
+                            experience.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="schedule.html">
+                            <button
+                                class="text-[#5e51ee] bg-white p-4 cursor-pointer font-semibold rounded-2xl hover:-translate-y-1 transition duration-300 ease-in-out border-2 border-gray-300 dark:hover:border-[#5e51ee] ">Explore
+                                the Schedule </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- ============= Footer Section ============= -->
