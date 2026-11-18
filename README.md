@@ -94,3 +94,7 @@ _Note: Update the folder structure if your actual file or image names are differ
 Created as a college web development project.
 
 **Project Name:** TechNova – College Fest Website
+
+## 🌐 Live Website
+
+[Visit TechNova Website](https://technova-website-nine.vercel.app/)
