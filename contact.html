@@ -20,181 +20,357 @@
 </head>
 
 <body class="bg-[#f8fafc] text-[#111827] dark:bg-[#0b1020] dark:text-[#f8fafc] h-min-screen">
+
     <!-- =============== Header Section ================ -->
+    <header class=" sticky top-0 z-50 bg-white dark:bg-[#0b1020] shadow-md dark:shadow-gray-800/50">
+        <div class="w-full max-w-7xl m-auto  px-4 md:px-6 lg:px-8 ">
 
-    <body class=" bg-[#f8fafc] text-[#111827] dark:bg-[#0b1020] dark:text-[#f8fafc] h-min-screen">
-        <!-- =============== Header Section ================ -->
-        <header class=" sticky top-0 z-50 bg-white dark:bg-[#0b1020] shadow-md dark:shadow-gray-800/50">
-            <div class="w-full max-w-7xl m-auto  px-4 md:px-6 lg:px-8 ">
+            <div class="h-18 flex justify-between items-center">
+                <!-- LOGO -->
+                <div>
+                    <a href="index.html">
+                        <span
+                            class="bg-[#4f46e5] dark:bg-[#6366f1]  py-1.5 px-3 md:px-2 md:py-1 lg:px-3 lg:py-1.5 rounded-xl text-white text-xl md:mr-1">✦</span>
+                        <span class="text-xl md:text-[16px] lg:text-xl font-bold">Tech</span><span
+                            class="text-[#4f46e5] dark:text-[#6366f1] text-xl md:text-[16px] lg:text-xl font-bold mr-2">Nova</span><span
+                            class="text-[#9FADC0] text-[12px] md:text-[10px] lg:text-[12px] font-semibold">FEST
+                            2026</span>
+                    </a>
+                </div>
+                <!-- MENU -->
+                <nav class="menu md:flex">
+                    <button class="text-3xl text-[#4f46e5] cursor-pointer md:hidden pb-3" type="button" id="closeBar"><i
+                            class="fa-solid fa-square-xmark"></i>
+                    </button>
+                    <a href="index.html"
+                        class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Home</a>
+                    <a href="about.html"
+                        class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px] ">About
+                        Us</a>
+                    <a href="events.html"
+                        class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Events</a>
+                    <a href="schedule.html"
+                        class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Schedule</a>
+                    <a href="gallery.html"
+                        class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Gallery</a>
+                    <a href="contact.html"
+                        class="text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl bg-blue-50 md:text-[12px] lg:text-[14px]">Contact</a>
 
-                <div class="h-18 flex justify-between items-center">
-                    <!-- LOGO -->
-                    <div>
-                        <a href="index.html">
-                            <span
-                                class="bg-[#4f46e5] dark:bg-[#6366f1]  py-1.5 px-3 md:px-2 md:py-1 lg:px-3 lg:py-1.5 rounded-xl text-white text-xl md:mr-1">✦</span>
-                            <span class="text-xl md:text-[16px] lg:text-xl font-bold">Tech</span><span
-                                class="text-[#4f46e5] dark:text-[#6366f1] text-xl md:text-[16px] lg:text-xl font-bold mr-2">Nova</span><span
-                                class="text-[#9FADC0] text-[12px] md:text-[10px] lg:text-[12px] font-semibold">FEST
-                                2026</span>
-                        </a>
-                    </div>
-                    <!-- MENU -->
-                    <nav class="menu md:flex">
-                        <button class="text-3xl text-[#4f46e5] cursor-pointer md:hidden pb-3" type="button"
-                            id="closeBar"><i class="fa-solid fa-square-xmark"></i>
-                        </button>
-                        <a href="index.html"
-                            class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Home</a>
-                        <a href="about.html"
-                            class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px] ">About
-                            Us</a>
-                        <a href="events.html"
-                            class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Events</a>
-                        <a href="schedule.html"
-                            class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Schedule</a>
-                        <a href="gallery.html"
-                            class="hover:text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl hover:bg-blue-50 md:text-[12px] lg:text-[14px]">Gallery</a>
-                        <a href="contact.html"
-                            class="text-[#4f46e5] dark:hover:text-[#6366f1] font-semibold  p-2 rounded-xl bg-blue-50 md:text-[12px] lg:text-[14px]">Contact</a>
+                    <!-- for registration button -->
+                    <a href="contact.html"
+                        class="p-4  rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-bold text-[15px] md:hidden mt-8">Register
+                        now ↗ </a>
 
-                        <!-- for registration button -->
-                        <a href="contact.html"
-                            class="p-4  rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-bold text-[15px] md:hidden mt-8">Register
-                            now ↗ </a>
-
-                    </nav>
-                    <!-- CTA Button -->
-                    <div>
-                        <button class="p-1.5  cursor-pointer rounded-full  hover:bg-gray-100 dark:hover:bg-gray-800 
+                </nav>
+                <!-- CTA Button -->
+                <div>
+                    <button class="p-1.5  cursor-pointer rounded-full  hover:bg-gray-100 dark:hover:bg-gray-800 
                          border border-gray-300 dark:border-gray-700 mr-1 md:mr-2" title="Toggle dark mode"
-                            id="toggle_theme"><i class="fa-regular fa-moon"></i>
-                        </button>
-                        <a href="contact.html"
-                            class="p-3 text-[10px] md:py-2 md:px-3 lg:py-3 lg:px-4 rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-bold md:text-[14px] hidden md:inline-block">Register
-                            now ↗ </a>
+                        id="toggle_theme"><i class="fa-regular fa-moon"></i>
+                    </button>
+                    <a href="contact.html"
+                        class="p-3 text-[10px] md:py-2 md:px-3 lg:py-3 lg:px-4 rounded-2xl bg-[#4f46e5] hover:bg-[#4338ca] dark:bg-[#6366f1] dark:hover:bg-[#818cf8] text-white font-bold md:text-[14px] hidden md:inline-block">Register
+                        now ↗ </a>
 
-                        <button class="p-1.5 rounded-xl dark:border-gray-700
+                    <button class="p-1.5 rounded-xl dark:border-gray-700
                          border border-gray-300 md:hidden " type="button" id="bar">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                    </div>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
             </div>
-
-        </header>
-
-
-        <!-- ============= Main Section ============= -->
-        <main>
-            <section id="hero" class="w-full h-screen"></section>
+        </div>
 
 
-        </main>
-        <!-- ============= Footer Section ============= -->
-        <footer class="bg-[#e2e8f0] dark:bg-[#080d19] py-10">
-            <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full ">
-                    <div>
-                        <a href="index.html">
-                            <span class="text-[25px] font-bold">Tech</span><span
-                                class="text-[#4f46e5] dark:text-[#6366f1] text-xl font-bold ">Nova
-                            </span>
-                        </a>
-                        <p class="mt-3 text-sm leading-6 text-[#4b5563] dark:text-[#cbd5e1]">A student-led
-                            celebration of ideas, technology and the
-                            people building tomorrow. Learn together.
-                            Build boldly. Share what you create.
-                        </p>
-                    </div>
-                    <div>
-                        <h3 class="font-bold ">Explore</h3>
-                        <ul class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">
-                            <li
-                                class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
-                                <a href="about.html">About
-                                    TechNova</a>
-                            </li>
-                            <li
-                                class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
-                                <a href="events.html">Explore
-                                    events</a>
-                            </li>
-                            <li
-                                class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
-                                <a href="schedule.html">Fest
-                                    schedule</a>
-                            </li>
-                        </ul>
+    </header>
 
-                    </div>
-                    <div>
-                        <h3 class="font-bold">Get in touch</h3>
-                        <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">abc@gmail.com
-                        </p>
-                        <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2">Campus Innovation Centre</p>
-                        <a href="contact.html" class="text-sm  text-[#4338ca] font-bold mt-2">Contact
-                            the team
-                            ↗</a>
-                    </div>
-                </div>
-                <div class="border-t border-gray-400 dark:border-gray-700 mt-10"></div>
-                <div class="flex flex-col md:flex-row justify-between items-center mt-3">
-                    <div>
-                        <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1]">© 2026 Rachna Sharma. All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="pt-2">
-                        <span class=" mr-2 text-center text-[15px]">
-                            <a href="https://www.facebook.com/">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </span>
 
-                        <span class=" mr-2 text-center text-[15px]">
-                            <a href="https://www.instagram.com/">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </span>
 
-                        <span class=" mr-2 text-center text-[15px]">
-                            <a href="https://x.com/">
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
-                        </span>
-
-                        <span class="p mr-2 text-center text-[15px]">
-                            <a href="https://www.youtube.com/">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                        </span>
-                    </div>
-                </div>
+    <!-- For Contact icons -->
+    <section>
+        <div class="relative ">
+            <div class="flex flex-col gap-3 right-3 top-64 z-50 fixed">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="./images/whatsapp.png" alt="whatsapp_image" class="w-10" /></a>
+                <a href="tel:+919876543210" target="_blank">
+                    <img src="./images/phone.png" alt="phone_image" class="w-10" /></a>
+                <a href="https://mail.google.com/" target="_blank">
+                    <img src="./images/mail.png" alt="mail_image" class="w-10" /></a>
             </div>
-        </footer>
-        <!-- For Overlay (adding layer while opening the side bar) -->
-        <div class="overlay"></div>
-        <!-- For Scroll button -->
-        <a href="#hero" class="fixed right-2.5 bottom-5 w-[50px] h-[50px] 
-          flex items-center justify-center
-          bg-[#4f46e5] hover:bg-[#4338ca]
-          dark:bg-[#6366f1] dark:hover:bg-[#818cf8]
-          text-white rounded-full hidden" id="arrow">
 
-            <i class="fa-solid fa-arrow-up"></i>
-
-        </a>
-        <script src="./Js/script.js"></script>
-    </body>
+        </div>
+    </section>
 
     <!-- ============= Main Section ============= -->
     <main>
+        <!-- Contact Hero section -->
+        <section id="hero" class="relative overflow-hidden">
+            <!-- image box -->
+            <div class="absolute inset-0 "><img src="./images/Cont.jpg" alt="computer_img"
+                    class="object-cover w-full h-full" /></div>
+            <div class="absolute inset-0 bg-slate-950/80"></div>
+            <div class="w-full max-w-7xl m-auto  px-4 md:px-6 lg:px-8 relative text-[#f8fafc] py-20 ">
+                <p class="uppercase text-[15px] text-indigo-500 pb-6 font-semibold tracking-widest">Let's connect
+                </p>
+                <h2 class="capitalize max-w-3xl text-4xl sm:text-6xl  font-bold ">We are happy to help.
+                </h2>
+                <p class="mt-3 max-w-2xl text-[15px] md:text-lg leading-6 md:leading-8 dark:text-[#cbd5e1]">
+                    Have a question about an event, registration or participation ? Our organizing team is here to help.
+                </p>
+            </div>
 
+        </section>
+        <!-- Contact section -->
+        <section class="bg-[#eef2ff] dark:bg-[#0b1020] py-20">
+            <div class="w-full max-w-7xl m-auto  px-4 md:px-6 lg:px-8">
+                <!-- heading -->
+                <div class="mb-6">
+                    <h2 class="text-center text-3xl font-semibold mt-2">Get In Touch </h2>
+                    <p class=" text-[#4b5563] dark:text-[#cbd5e1] text-center text-[15px] ">
+                        Have questions? We'd love to hear from you.
+                    </p>
+                </div>
+                <!-- Contact Us Form section  -->
+                <div class="flex flex-col gap-8 lg:flex-row lg:gap-12">
+                    <!-- Information details -->
+                    <div
+                        class="w-full lg:w-1/2 bg-white shadow-sm dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-6">
+                        <h3 class="text-2xl font-semibold pb-2">Let's Connect</h3>
+                        <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[15px] pb-4">We are here to help you with
+                            everything about
+                            TechNova.</p>
+                        <div class="border-t border-gray-400 dark:border-gray-600 mb-6"></div>
+                        <div class="flex mb-2">
+                            <div class="mb-4 p-4 bg-blue-100 rounded-xl text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-mail preview-icon text-blue-700">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <span class=" font-bold text-[16px] ">Email</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[14px]">
+                                    technova@example.com
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex mb-2">
+                            <div class="mb-4 p-4 bg-[#cbffcb] rounded-xl text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-phone preview-icon text-blue-700">
+                                    <path
+                                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <span class=" font-bold text-[16px] ">Phone</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[14px]">
+                                    +918084538745
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex mb-2">
+                            <div class="mb-4 p-4 bg-purple-100 rounded-xl text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin preview-icon text-blue-700">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <span class=" font-bold text-[16px] ">Location</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[14px]">
+                                    Campus Innovation Centre
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex mb-2">
+                            <div class="mb-4 p-4 bg-green-100 rounded-xl text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-clock-3 preview-icon text-blue-700">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6h4" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <span class=" font-bold text-[16px] ">Office hours</span>
+                                <p class="text-[#4b5563] dark:text-[#cbd5e1] text-[14px]">
+                                    Monday–Friday · 10 AM–4 PM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-400 dark:border-gray-600"></div>
+                        <p class="font-semibold pt-4">Follow us on social media</p>
+                        <div class="mt-4 ">
+                            <a href="https://www.facebook.com/"
+                                class="px-2  rounded-full mr-2 bg-[#4f46e5]  dark:bg-[#6366f1] cursor-pointer text-center">
+                                <button class="text-[12px] font-semibold text-white ">Facebook</button>
+
+                            </a>
+                            <a href="https://www.instagram.com/"
+                                class="px-2 rounded-full mr-2 bg-[#4f46e5]  dark:bg-[#6366f1] cursor-pointer text-center">
+                                <button class="text-[12px] font-semibold text-white ">Instagram</button>
+                            </a>
+                            <a href="https://www.linkedin.com/"
+                                class="px-2  rounded-full mr-2 bg-[#4f46e5]  dark:bg-[#6366f1] cursor-pointer text-center">
+                                <button class="text-[12px] font-semibold text-white ">LinkedIn</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Form -->
+                    <div
+                        class="w-full lg:w-1/2 bg-white shadow-sm dark:bg-[#151c30] border border-[#e2e8f0] dark:border-[#293449] rounded-2xl p-6">
+                        <h3 class="text-2xl font-semibold pb-6">Send a Message</h3>
+                        <form>
+                            <div> <label for="userName" class="font-semibold text-[15px] ">Full name *</label>
+                                <div class="mt-2">
+                                    <input type="text" name="name" id="userName" placeholder="Your Name" required
+                                        class="border border-gray-300 dark:border-gray-600 dark:bg-[#0b1020] py-2.5 pl-4 w-full rounded-xl">
+                                </div>
+                            </div>
+                            <div class="mt-4"><label for="email" class="font-semibold text-[15px] ">Email *</label>
+                                <div class="mt-2"><input type=" email" name="email" id="email"
+                                        placeholder="abc@gmail.com" required
+                                        class="border border-gray-300 dark:border-gray-600 dark:bg-[#0b1020] py-2.5 pl-4 w-full rounded-xl">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label for="about" class="font-semibold text-[15px] ">What is this about?</label>
+                                <div>
+                                    <select id=" about" name="about_question"
+                                        class="mt-2 w-full border border-gray-300 dark:border-gray-600 dark:bg-[#0b1020] py-2.5 pl-4 rounded-xl">
+                                        <option value="other">Other question</option>
+                                        <option value="event registration">Event Registration</option>
+                                        <option value="event_information">Event Information</option>
+                                        <option value="volunteering">Volunteering</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label for="message" class="font-semibold text-[15px] ">Your message *</label>
+                                <div class="mt-2 mb-4">
+                                    <textarea id="message" name="comments" placeholder="Tell us how we can help..."
+                                        required rows="4" cols="5"
+                                        class="border border-gray-300 dark:border-gray-600 dark:bg-[#0b1020] pt-2 pl-4 w-full rounded-xl"></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit"
+                                    class="w-full bg-blue-700 text-white font-semibold rounded-2xl text-center p-2 cursor cursor-pointer">Send
+                                    Message →</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Map -->
+        <section class="py-20">
+
+            <div class="w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d142826.48194541005!2d-122.38866119827969!3d37.718523342356164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1795027193237!5m2!1sen!2sin"
+                    class="w-full aspect-video rounded-xl" style="border: 0;" allowfullscreen loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+        </section>
 
     </main>
     <!-- ============= Footer Section ============= -->
-    <footer></footer>
+    <footer class="bg-[#e2e8f0] dark:bg-[#080d19] py-10">
+        <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full ">
+                <div>
+                    <a href="index.html">
+                        <span class="text-[25px] font-bold">Tech</span><span
+                            class="text-[#4f46e5] dark:text-[#6366f1] text-xl font-bold ">Nova
+                        </span>
+                    </a>
+                    <p class="mt-3 text-sm leading-6 text-[#4b5563] dark:text-[#cbd5e1]">A student-led
+                        celebration of ideas, technology and the
+                        people building tomorrow. Learn together.
+                        Build boldly. Share what you create.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-bold ">Explore</h3>
+                    <ul class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">
+                        <li
+                            class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
+                            <a href="about.html">About
+                                TechNova</a>
+                        </li>
+                        <li
+                            class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
+                            <a href="events.html">Explore
+                                events</a>
+                        </li>
+                        <li
+                            class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2 hover:text-[#4338ca] hover:font-bold">
+                            <a href="schedule.html">Fest
+                                schedule</a>
+                        </li>
+                    </ul>
 
+                </div>
+                <div>
+                    <h3 class="font-bold">Get in touch</h3>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-3">abc@gmail.com
+                    </p>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1] mt-2">Campus Innovation Centre</p>
+                    <a href="contact.html" class="text-sm  text-[#4338ca] font-bold mt-2">Contact
+                        the team
+                        ↗</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-400 dark:border-gray-700 mt-10"></div>
+            <div class="flex flex-col md:flex-row justify-between items-center mt-3">
+                <div>
+                    <p class="text-sm text-[#4b5563] dark:text-[#cbd5e1]">© 2026 Rachna Sharma. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="pt-2">
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </span>
+
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </span>
+
+                    <span class=" mr-2 text-center text-[15px]">
+                        <a href="https://x.com/">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </span>
+
+                    <span class="p mr-2 text-center text-[15px]">
+                        <a href="https://www.youtube.com/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- For Overlay (adding layer while opening the side bar) -->
+    <div class="overlay"></div>
     <!-- For Scroll button -->
     <a href="#hero" class="fixed right-2.5 bottom-5 w-[50px] h-[50px] 
           flex items-center justify-center
